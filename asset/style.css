@@ -1,0 +1,50 @@
+:root {
+--color: #FEE715FF;
+
+}
+
+* {
+    background-color: black;
+    color: #FEE715FF;
+    margin: 0;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif
+
+/* body { */
+
+/* } */
+
+.sidebar {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 100%;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 50px;
+    border-bottom: 2px dotted #FEE715FF ;
+    border-bottom: center;
+    padding-top: 30px;
+}
+.sidebar img {
+    width: 250px;
+    height: 250px;
+    margin-top: -10px;
+}
+.sidebar a {
+    display: block;
+    padding: 8%;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.main {
+    width: 60%;
+    margin-right:0;
+
+}
