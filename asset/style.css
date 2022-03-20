@@ -12,36 +12,48 @@ font-family: 'Century Gothic', sans-serif;
 }
 
 /* sidebar section */
-.sidebar {
-    
-        /* fixed positioning to make the sidebar always there */
-        position: fixed;
-        width: 20%;
-        left: 0;
-        margin: 0;
-        padding: 0;
-        overflow: auto;
-        height: 100%;
+.navbar {
+    margin: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.navlistbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 5px;
+}
+
+.navlist {
+    justify-content: space-around;
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 15px;
+        text-decoration: none;
         text-align: center;
     }
 h1 {
     font-size: 50px;
     border-bottom: 2px dotted #FEE715FF ;
-    border-bottom: center;
-    padding-top: 30px;
-    text-shadow: 2px;
 }
 .sidebar img {
     width: 250px;
     height: 250px;
     margin-top: -10px;
 }
-.sidebar a {
-    display: block;
-    padding: 20%;
-    text-decoration: none;
-    font-size: 25px;
+.navlist a {
 
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.body_text img {
+    width: 250px;
+    height: 250px;
+    margin-top: -10px;
 }
 
 /* body section */
@@ -50,19 +62,45 @@ h1 {
    text-align: center;
     padding: 100px 20%;
     line-height: 2.5rem;
-    margin-left: 20%;
-
+    /* display: flex; */
 }
 
-.body_text h2 {
-    font-size: 70px;
-    padding:200px 0px;
-    /* translate into rgb add 0.3 at the end to make it semi-transparent */
-    text-shadow: 2px 2px  rgb(254, 231, 21, 0.9);
-    /* border-radius: 5%; */
 
+.body_text h2 {
+    position: absolute;
+    left: 73px;
+    font-size: 59px;
+    padding: 200px 0px;
+    text-shadow: 2px 2px rgb(254 231 21 / 90%);
+    border-right: 2px solid rgb(254, 231, 21, 0.9);
+    padding-right: 15px;
 } 
 
+.body_text p {
+    position: relative;
+    left: 148px;
+    padding: 20px;
+    word-spacing: 1px;
+    line-height: 29px; 
+    text-align: center;
+}
 
+
+
+
+/* Contact */
+.contact {
+    background-image: url(./picture/Contact.jpg);
+    
+}
+
+
+footer {
+    border-top: 2px solid rgb(254 231 21 / 90%) ;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
 /* sidebar when hovering  */
 
