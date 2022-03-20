@@ -1,7 +1,4 @@
-:root {
---color: #FEE715FF;
 
-}
 
 * {
     background-color: black;
@@ -19,14 +16,11 @@ font-family: 'Century Gothic', sans-serif;
     }
 
 .navlistbar {
-    display: flex;
-    flex-wrap: wrap;
     align-content: center;
     margin-left: 5px;
 }
 
 .navlist {
-    justify-content: space-around;
         display: inline-block;
         margin-left: 20px;
         font-size: 15px;
@@ -50,10 +44,13 @@ h1 {
     font-family: 'Century Gothic', sans-serif;
 }
 
-.body_text img {
+#head {
     width: 250px;
     height: 250px;
     margin-top: -10px;
+}
+.project_picgroup {
+    display: flex;
 }
 
 /* body section */
@@ -85,13 +82,41 @@ h1 {
     text-align: center;
 }
 
+.project_picgroup {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.project_picgroup img {
+    width: 40%;
+    height: 140px;
+    margin: 5px;
+}
+
+}
+
+.section {
+    border: 1px ;
+}
+
+
+#big_pic {
+    width: 100%;
+    height: 280px;
+}
+
+.body_text img:hover {
+    opacity:0.5;
+
+
+}
 
 
 /* Contact */
-.contact {
-    background-image: url(./picture/Contact.jpg);
-    
+
+
+.contact p {
+    text-align: center;
 }
 
 
@@ -104,3 +129,11 @@ footer {
 }
 /* sidebar when hovering  */
 
+.project_picgroup:hover {
+    cursor:crosshair;
+}
+
+.project_pic:hover {
+    border:3px solid rgba(238, 238, 71, 0.849);
+    opacity:0.5;
+}
